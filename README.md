@@ -56,6 +56,7 @@ export default class App extends React.Component {
     });
     this.__renderItem = this.__renderItem.bind(this);
     this.__onScroll = this.__onScroll.bind(this);
+    this.__onItemPlaced = this.__onItemPlaced.bind(this);
   }
   // XXX: Render anything you want!
   __renderItem(item) {
