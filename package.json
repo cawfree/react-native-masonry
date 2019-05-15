@@ -1,7 +1,7 @@
 {
   "name": "@cawfree/react-native-masonry",
-  "version": "1.0.2",
-  "description": "A bare-bones  masonary layout for react-native.",
+  "version": "1.0.3",
+  "description": "A bare-bones masonry layout for react-native.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

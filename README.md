@@ -1,5 +1,5 @@
 # react-native-masonry
-A bare-bones  masonary layout for react-native.
+A bare-bones masonry layout for react-native.
 
 <p align="center">
   <img src="./raw/anim.gif" alt="@cawfree/react-native-masonry" />
