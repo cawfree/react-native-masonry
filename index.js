@@ -6,7 +6,7 @@ import {
 } from 'react-native';
 import PropTypes from 'prop-types';
 
-class PropsMasonry extends React.Component {
+class Masonry extends React.Component {
   constructor(nextProps) {
     super(nextProps);
     this.state = ({
@@ -225,11 +225,11 @@ class PropsMasonry extends React.Component {
 }
 
 Object.assign(
-  PropsMasonry.prototype,
+  Masonry.prototype,
   require('react-timer-mixin'),
 );
 
-PropsMasonry.propTypes = {
+Masonry.propTypes = {
   columns: PropTypes.number,
   renderItem: PropTypes.func.isRequired,
   ScrollComponent: PropTypes.shape({}),
@@ -237,7 +237,7 @@ PropsMasonry.propTypes = {
   onCreate: PropTypes.func,
 };
 
-PropsMasonry.defaultProps = {
+Masonry.defaultProps = {
   columns: 2,
   items: [],
   ScrollComponent: ScrollView,
@@ -270,4 +270,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default PropsMasonry;
+export default Masonry;
